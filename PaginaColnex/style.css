@@ -1,27 +1,24 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 html{
     font-size: 62.5%;
-    background: rgb(0, 132, 255);
 }
 body{
     font-size: 1.6rem;
 }
 .barra{
     height: 10vh;
+    margin: 1rem 1rem ;
     align-items: center;
     display: flex;
 }
 .menu{
     flex-grow: 1;
-    justify-content: flex-start;
 }
 .logo {
-    height: 8rem;
-    background: cornflowerblue;
-    justify-content: flex-end;
+    height: 5rem;
 }
 
