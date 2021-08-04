@@ -1,3 +1,11 @@
+:root {
+    /* Colores */
+    --blue: #0000FF;
+    --red: #FF0000;
+    --yellow: #FFFF00;
+    --black: #FFFFFF;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,23 +13,92 @@
 }
 html{
     font-size: 62.5%;
-    background: rgb(0, 132, 255);
 }
 body{
     font-size: 1.6rem;
 }
 .barra{
-    height: 10vh;
+    width: 100%;
+    height: auto;
     align-items: center;
-    display: flex;
+    background-color: var(--black);
 }
 .menu{
     flex-grow: 1;
     justify-content: flex-start;
 }
-.logo {
-    height: 8rem;
-    background: cornflowerblue;
-    justify-content: flex-end;
-}
+.barra figure{
+    width: 80%;
+    height: auto;
+    display: inline;
+   
 
+}
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 15px 0px 15px;
+}
+.presentacion {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #F0F0C9;
+}
+.presentacion h1 {
+    color: var(--red);
+    margin: 5px;
+}
+.ambientelaboral {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url('./img/Rodrigo.jpeg');
+}
+.ambientelaboral h1 {
+    color: var(--yellow);
+    margin: 5px;
+}
+.equipo {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+.equipoSlider {
+    display: flex;
+    gap: 10px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.equipo h1{
+    color: var(--blue);
+    margin: 5px;
+}
+.empleado{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.empleado img{
+    width: 60%;
+    height: 100px;
+    margin: 15px;
+}
