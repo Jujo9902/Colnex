@@ -1,0 +1,68 @@
+:root {
+    /* colores */
+    --titulos: #F0F0F0; 
+    --parrafos: #D5D5D5; 
+
+
+}
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+ text-decoration: none;
+ cursor:alias;
+}
+#header{
+    background: #212529; 
+    }
+    
+#header img {
+      width: 100%;
+    }
+    
+#header .nav-link{
+      color: #FCF7FF;
+    }
+
+#Inicio{
+    background: black;
+    color: white;
+}
+
+#Inicio h2{
+    font-size: 16px;
+    text-align: left;
+    margin: 9vh;
+    padding-left: 50px;
+}
+
+#Equipo {
+        background-color: #343a40;
+        color: #FCF7FF;
+        text-justify: auto;
+}
+      
+#Equipo img {
+        max-width: 100%;
+}
+
+#Clientes{
+    border-radius: 0%;
+}
+
+#footer {
+    background:#234E5A;
+  }
+  
+#footer a {
+    color: #FCF7FF;
+  }
