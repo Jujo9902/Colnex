@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +8,58 @@
     <link rel="stylesheet" href="./style.css">
     <!-- <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-
 <body>
-    <nav id="barra" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="barra" class="navbar navbar-expand-lg navbar-light bg-light" >
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/LOGO.png" class="img-fluid" alt="Logo Colnex">
+          <a class="navbar-brand" href="#">
+              <img src="img/LogoColnex.jpg" alt="Logo Colnex" >
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#carousel">Inicio</a>
-                    <a class="nav-link" href="#producto">Servicios</a>
-                    <a class="nav-link" href="#equipo">Nuestro Equipo</a>
-                    <a class="nav-link" href="#clientes">clientes</a>
-                </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#carousel">Quienes Somos</a>
+              <a class="nav-link" href="#producto">Productos</a>
+              <a class="nav-link" href="#equipo">Nuestro Equipo</a>
+              <a class="nav-link disabled">Contactanos</a>
             </div>
+<<<<<<< HEAD
+=======
+          </div>
+        </div>
+      </nav>
+     
+    <main id="main">
+        <!-- Quienes somos  -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/pexels-cottonbro-5076531.jpg" class="d-block w-100" alt="...">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                    <h1>Quienes Somos</h1>
+                                    <p class="d-none d-md-block">Somos una empresa de tecnología y consultoría cuyo
+                                        principal objetivo es estar a la vanguardia en nuevas tecnologías y metodologías,
+                                        para brindar a nuestros clientes las mejores alternativas de solución a sus
+                                        necesidades tecnológicas haciendo uso de las mejores practicas que existen en el
+                                        mercado.</p>
+                                    <p class="d-block d-none">Somos una empresa de tecnología y consultoría cuyo principal
+                                        objetivo es estar a la vanguardia en nuevas tecnologías y metodologías, para brindar
+                                        a nuestros clientes las mejores alternativas de solución a sus necesidades
+                                        tecnológicas haciendo uso de las mejores practicas que existen en el mercado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+>>>>>>> parent of 758ab2a (Primer abance)
                 </div>
-
+    
             </div>
         </div>
         <!-- Productos -->
@@ -41,8 +68,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-12 text-center mt-4">
-                            <h6>Conoce nuestros</h6>
-                            <h1>Servicios</h1>
+                            <h1>Productos</h1>
                         </div>
                     </div>
                 </div>
@@ -51,61 +77,55 @@
                 <div class="row flex-row flex-nowrap overflow-auto">
                     <div class="col-md-4 my-4">
                         <div class="card card-block" aria-hidden="true">
-                            <img src="./img/choosing-icons-for-mobile-app.jpg" class="card-img-top" alt="...">
+                            <img src="./img/web.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title placeholder-glow">
-                                    Diseño de Soluciones
+                                    Paginas Web
                                 </h5>
                                 <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium
-                                    officiis quas modi quia vel recusandae, incidunt magnam aliquid placeat excepturi
-                                    vitae assumenda fuga dicta quod ratione quam voluptas nihil.
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
                                 </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 my-4">
                         <div class="card card-block" aria-hidden="true">
-                            <img src="./img/code.jpg" class="card-img-top" alt="...">
+                            <img src="./img/analisis.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title placeholder-glow">
-                                    Desarrollo Web
+                                    Analisis de Proyectos
                                 </h5>
                                 <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum repellat,
-                                    neque maiores cumque molestias deserunt suscipit accusantium repellendus deleniti
-                                    doloremque nemo quidem exercitationem voluptas doloribus cum corrupti enim quo?
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
                                 </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 my-4">
                         <div class="card card-block" aria-hidden="true">
-                            <img src="./img/proyectos.jpg" class="card-img-top" alt="...">
+                            <img src="./img/circuitos.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title placeholder-glow">
-                                    Dirección de proyectos
+                                    Soporte
                                 </h5>
                                 <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum repellat,
-                                    neque maiores cumque molestias deserunt suscipit accusantium repellendus deleniti
-                                    doloremque nemo quidem exercitationem voluptas doloribus cum corrupti enim quo?
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-4">
-                        <div class="card card-block" aria-hidden="true">
-                            <img src="./img/IMBi.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title placeholder-glow">
-                                    Desarrollo IBM i
-                                </h5>
-                                <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum repellat,
-                                    neque maiores cumque molestias deserunt suscipit accusantium repellendus deleniti
-                                    doloremque nemo quidem exercitationem voluptas doloribus cum corrupti enim quo?
-                                </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
                             </div>
                         </div>
                     </div>
@@ -114,70 +134,95 @@
         </section>
         <!-- Equipo -->
         <section id="equipo" class="equipo" class="mt-4">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12 text-center mt-4">
+                            <h1>Nuestro Equipo</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="row flex-row flex-nowrap overflow-auto">
                     <div class="col-md-4 my-4">
                         <div class="card card-block" aria-hidden="true">
-                            <img src="./img/agile.jpg" class="card-img-top" alt="...">
+                            <img src="./img/Juanjo.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title placeholder-glow">
-                                    Nuestro Equipo
+                                    Juan Jose Ochoa Ortiz
                                 </h5>
                                 <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque fugiat enim
-                                    ut optio totam illo odio maxime laboriosam aspernatur cupiditate corporis ullam
-                                    veritatis, nobis veniam blanditiis voluptatibus molestias eos.
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
                                 </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-4">
+                        <div class="card card-block" aria-hidden="true">
+                            <img src="./img/Hector.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title placeholder-glow">
+                                    Hector Santafe
+                                </h5>
+                                <p class="card-text placeholder-glow">
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
+                                </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-4">
+                        <div class="card card-block" aria-hidden="true">
+                            <img src="./img/Sebastian.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title placeholder-glow">
+                                    Sebastian Sanchez
+                                </h5>
+                                <p class="card-text placeholder-glow">
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
+                                </p>
+                                <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Clientes -->
-        <section id="clientes" class="clientes" class="mt-4">
-            <div class="container">
-                <div class="overlay">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-12 text-center mt-4">
-                                <h1>Clientes</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 col-lg">
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    
     </main>
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-lg">
-                    <img src="./img/LOGO.png" class="img-fluid" alt="Logo Colnex">
-                    <h3>COLNEX SI</h3>
+                    <a href="">Preguntas frecuentes</a>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="">Calle Busquela con carrera encuentrela</a>
+                  <a href="">Contáctanos</a>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="">+57 601 6362823</a>
+                  <a href="">Terminos y condiciones</a>
                 </div>
                 <div class="col-12 col-lg">
-                    <a href="">contacto@colnessi.com.co</a>
+                  <a href="">Privacidad</a>
                 </div>
             </div>
         </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
-
 </html>

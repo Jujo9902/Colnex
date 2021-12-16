@@ -1,6 +1,5 @@
 #barra img{
     width: 30%;
-    /* height: 100px; */
 }
 #carousel img{
     max-height: 60vh;
@@ -25,7 +24,6 @@
 }
 .card-img-top{
     max-height: 48vh;
-    object-fit: cover;
 }
 #footer{
     background: #474a50;
@@ -34,11 +32,3 @@
     color: white;
     
 }
-#equipo .card-body{
-    background-color: #212529;
-}
-#equipo .card-title{
-    color: #FCF7FF;
-}
-#equipo .card-body{
-    color: #FCF7FF;
