@@ -5,36 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conex SI</title>
+    <title>Colnex SI</title>
     <link rel="stylesheet" href="./style.css">
     <!-- <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-
 <body>
     <nav id="barra" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="img/LOGO.png" class="img-fluid" alt="Logo Colnex">
+                <img src="img/LOGO.png" alt="Logo Colnex">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#carousel">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#main">Inicio</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#producto">Servicios</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#equipo">Nuestro Equipo</a>
-                    <a class="nav-link" href="#clientes">clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#clientes">Clientes</a>
+                  </li>
+                </ul>
+                
+              </div>
+        </div>
+    </nav>
+    <!-- Quienes somos  -->
+    <header class="masthead">
+        <div class="containerPrincipal h-100 align-items-center justify-content-center text-center">
+            <p class="parrafoPrincipal mb-5">Llevamos tu negocio al siguiente nivel con la mejor
+                solución tecnológica.</p>
+        </div>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/opening.jpg" class="d-block w-100" alt="...">
                 </div>
-            </div>
-                </div>
-
             </div>
         </div>
+    </header>
+    <main id="main">
         <!-- Productos -->
         <section id="producto" class="productos" class="mt-4">
             <div class="overlay">
@@ -46,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  
             <div class="container">
                 <div class="row flex-row flex-nowrap overflow-auto">
                     <div class="col-md-4 my-4">
@@ -113,25 +134,19 @@
             </div>
         </section>
         <!-- Equipo -->
-        <section id="equipo" class="equipo" class="mt-4">
-            <div class="container">
-                <div class="row flex-row flex-nowrap overflow-auto">
-                    <div class="col-md-4 my-4">
-                        <div class="card card-block" aria-hidden="true">
-                            <img src="./img/agile.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title placeholder-glow">
-                                    Nuestro Equipo
-                                </h5>
-                                <p class="card-text placeholder-glow">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque fugiat enim
-                                    ut optio totam illo odio maxime laboriosam aspernatur cupiditate corporis ullam
-                                    veritatis, nobis veniam blanditiis voluptatibus molestias eos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+        <section id="equipo">
+            <div class="container-fluid">
+              <div class="row">   
+                <div class="col-12 col-lg-6 px-0 ">
+                  <img src="./img/agile.jpg" alt="equipo">
                 </div>
+                <div class="col-12 pt-4 pb-4 col-lg-6">
+                  <h2>Nuestro Equipo</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eaque fugiat enim
+                    ut optio totam illo odio maxime laboriosam aspernatur cupiditate corporis ullam
+                    veritatis, nobis veniam blanditiis voluptatibus molestias eos.</p>
+                </div>
+              </div>
             </div>
         </section>
         <!-- Clientes -->
@@ -146,21 +161,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-12 col-lg">
-                    </div>
-                    </div>
-                </div>
             </div>
         </section>
-
     </main>
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12 col-lg">
-                    <img src="./img/LOGO.png" class="img-fluid" alt="Logo Colnex">
-                    <h3>COLNEX SI</h3>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/LOGO.png" alt="Logo Colnex">
+                    </a>
                 </div>
                 <div class="col-12 col-lg">
                     <a href="">Calle Busquela con carrera encuentrela</a>
@@ -171,13 +181,14 @@
                 <div class="col-12 col-lg">
                     <a href="">contacto@colnessi.com.co</a>
                 </div>
+                <div class="col-12 col-lg">
+                    <img src="./img/logoRedes.png"  alt="Logo Colnex">
+                </div>
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
